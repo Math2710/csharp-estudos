@@ -31,6 +31,13 @@ Os projetos estão numerados na ordem de aprendizado:
 | Projeto | Tópico |
 | --- | --- |
 | [`01-Estrutura-Basica-Namespaces/`](01-Estrutura-Basica-Namespaces/) | Estrutura básica de um programa C#, `namespace`, diretiva `using`, `Console.Write` / `WriteLine` e interpolação de strings |
+| [`02-Variaveis/`](02-Variaveis/) | Variáveis, tipos de dados, conversão de tipos e leitura com `Console.ReadLine` |
+| [`03-Operadores-Aritmeticos/`](03-Operadores-Aritmeticos/) | Operadores aritméticos — soma, subtração, multiplicação, divisão e resto |
+| [`04-Operadores-Atribuicao-Incremento-Decremento/`](04-Operadores-Atribuicao-Incremento-Decremento/) | Operadores de atribuição (`+=`, `-=`, `*=`, `/=`) e incremento / decremento |
+| [`05-Estruturas-Decisao-Condicional-Simples-Composta/`](05-Estruturas-Decisao-Condicional-Simples-Composta/) | Estruturas de decisão — condicional simples (`if`) e composta (`if` / `else`) |
+| [`06-Revisao-Geral/`](06-Revisao-Geral/) | Revisão geral — exercícios combinando entrada de dados, operadores e condicionais |
+| [`07-Estruturas-Decisao-Condicional-Aninhadas/`](07-Estruturas-Decisao-Condicional-Aninhadas/) | Condicionais aninhadas — `if` dentro de `if` e encadeamento com `else if` |
+| [`08-Declaracao-Condicional-Switch/`](08-Declaracao-Condicional-Switch/) | Declaração condicional `switch` — `case`, `break` e `default` |
 
 Dentro de cada projeto:
 
