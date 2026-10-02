@@ -92,4 +92,42 @@ namespace _10_Estruturas_De_Repeticao_While
             }
         }
     }
+    internal class Exercicio3
+    {
+        public static void Executar()
+        {
+            Random secreto = new Random();
+            int numAleatorio = secreto.Next(0, 101);
+            int palpite;
+            int tentativas = 0;
+            Console.WriteLine("===== JOGO DE ADIVINHAÇÃO =====\r\n\r\n" +
+                    "Tente descobrir o número entre 1 e 100!\r\n");
+            do
+            {
+                Console.Write("Digite seu palpite: ");
+                palpite = int.Parse(Console.ReadLine());
+                if (palpite < 1 || palpite > 100)
+                {
+                    Console.WriteLine("São válidos somente números de 1 a 100!\n\n");
+                }
+                else if (palpite < numAleatorio)
+                {
+                    Console.WriteLine("O número secreto é maior!\n\n");
+                    tentativas++;
+                }
+                else if (palpite > numAleatorio)
+                {
+                    Console.WriteLine("O número secreto é menor!\n\n");
+                    tentativas++;
+                }
+                else
+                {
+                    Console.WriteLine("Parabéns! Você acertou!\r\n\n");
+                    Console.WriteLine($"Números de tentativas: {tentativas}");
+                    break;
+                }
+            }
+            while (true);
+        }
+    }
 }
